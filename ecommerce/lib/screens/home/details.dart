@@ -32,7 +32,7 @@ class _productDetailsState extends State<productDetails> {
     ];
     return Scaffold(
       body: Padding(
-        padding: const EdgeInsets.only(left: 8.0),
+        padding: const EdgeInsets.all(8.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -185,8 +185,13 @@ class _productDetailsState extends State<productDetails> {
                 print("successfully");
               },
               child: Container(
+                height: 70,
                 width: double.infinity,
-                child: Text("Add to Cart"),
+                child: Center(
+                    child: Text(
+                  "Add to Cart",
+                  style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
+                )),
                 decoration:
                     BoxDecoration(color: Color.fromARGB(255, 233, 210, 65)),
               ),

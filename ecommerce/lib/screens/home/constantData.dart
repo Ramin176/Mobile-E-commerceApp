@@ -86,13 +86,13 @@ class constantData {
   List<phones> iphoneDetails = [
     phones(
         ImgeUrl1:
-            'https://media.istockphoto.com/id/1364620309/photo/iphone-13-pro.jpg?s=612x612&w=0&k=20&c=2h5Q46wh-eRyPwh4KKnJhCKFWqcd2ltgv9tdaULDdbc=',
+            'https://images.unsplash.com/photo-1606041011872-596597976b25?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXBwbGUlMjBpcGhvbmV8ZW58MHx8MHx8fDA%3D&w=1000&q=80',
         ImgeUrl2:
-            'https://media.istockphoto.com/id/1364620309/photo/iphone-13-pro.jpg?s=612x612&w=0&k=20&c=2h5Q46wh-eRyPwh4KKnJhCKFWqcd2ltgv9tdaULDdbc=',
+            'https://bgr.com/wp-content/uploads/2022/09/iphone-14-pro-max-space-black.jpg?quality=82&strip=all&resize=1400,1050',
         ImgeUrl3:
-            'https://media.istockphoto.com/id/1364620309/photo/iphone-13-pro.jpg?s=612x612&w=0&k=20&c=2h5Q46wh-eRyPwh4KKnJhCKFWqcd2ltgv9tdaULDdbc=',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr_gV2pytWYUqGR9otL7omG4VcVY7FHZtQ-p0pMtmHhKO8dUeB07OvnsjXcO885qGrf3Q&usqp=CAU',
         ImgeUrl4:
-            'https://media.istockphoto.com/id/1364620309/photo/iphone-13-pro.jpg?s=612x612&w=0&k=20&c=2h5Q46wh-eRyPwh4KKnJhCKFWqcd2ltgv9tdaULDdbc=',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN5ZGp065xjc_q16Q_iMHJoJfVEP2268YEzlb_RKj3&s',
         //'https://cdn.shopify.com/s/files/1/0011/0162/7439/products/iPhone14ProMax_DeepPurple_bb227bb9-44d2-48fd-83e6-37176aa70d2e_1200x.png?v=1668771881',
         phoneName: 'Iphone 14 Pro Max',
         description:

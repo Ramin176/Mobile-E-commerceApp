@@ -71,26 +71,6 @@ class _productDetailsState extends State<productDetails> {
             SizedBox(
               height: 32,
             ),
-            // SmoothPageIndicator(
-            //   controller: PageController(), // PageController
-            //   count: urlImages.length,
-            //   effect: JumpingDotEffect(
-            //       dotWidth: 20,
-            //       dotHeight: 20,
-            //       activeDotColor: Colors.red,
-            //       dotColor: Colors.black12),
-            // ), // your preferred effect
-
-            // AnimatedSmoothIndicator(
-
-            //   activeIndex: activeIndex1,
-            //   count: urlImages.length,
-            //   effect: JumpingDotEffect(
-            //       dotWidth: 20,
-            //       dotHeight: 20,
-            //       activeDotColor: Colors.red,
-            //       dotColor: Colors.black12),
-            // )
             Text(
               "${a[args].available}" + "  Peice ${a[args].cost}",
               style: TextStyle(color: Colors.grey.shade700),

@@ -200,10 +200,16 @@ class _productDetailsState extends State<productDetails> {
             SizedBox(
               height: 30,
             ),
-            Container(
-              width: double.infinity,
-              decoration:
-                  BoxDecoration(color: Color.fromARGB(255, 233, 210, 65)),
+            GestureDetector(
+              onTap: () {
+                print("successfully");
+              },
+              child: Container(
+                width: double.infinity,
+                child: Text("Add to Cart"),
+                decoration:
+                    BoxDecoration(color: Color.fromARGB(255, 233, 210, 65)),
+              ),
             )
           ],
         ),

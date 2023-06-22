@@ -122,7 +122,6 @@ class _homeState extends State<home> {
             padding: const EdgeInsets.all(8.0),
             child: GestureDetector(
               onTap: () {
-                print(productDetail);
                 Get.to(() => productDetails(product: productDetail),
                     arguments: index);
               },

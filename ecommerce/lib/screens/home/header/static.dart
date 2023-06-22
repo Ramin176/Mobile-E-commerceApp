@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:ecommerce/screens/home/constantData.dart';
-import 'package:ecommerce/screens/home/model/phoneModel.dart';
+// import 'package:ecommerce/screens/home/constantData.dart';
+// import 'package:ecommerce/screens/home/model/phoneModel.dart';
 
+// ignore: camel_case_types, must_be_immutable
 class constant extends StatefulWidget {
   String ImgUrl;
   String phoneType;

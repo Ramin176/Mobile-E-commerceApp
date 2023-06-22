@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:ecommerce/screens/home/details.dart';
 import 'package:ecommerce/screens/home/model/phoneModel.dart';
-import 'package:sqflite/sqflite.dart';
-import '../../sqflite.dart';
+// import 'package:sqflite/sqflite.dart';
+// import '../../sqflite.dart';
 import 'constantData.dart';
 import 'header/head.dart';
 import 'package:get/get.dart';
@@ -18,14 +18,14 @@ class _homeState extends State<home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 237, 229, 229),
+      backgroundColor: const Color.fromARGB(255, 237, 229, 229),
       resizeToAvoidBottomInset: false,
       body: Column(
         children: [
           // appbar of the screen from head file consist: profile image and Stack wedget
-          Expanded(
+          const Expanded(
             flex: 1,
-            child: const homeHead(),
+            child: homeHead(),
           ),
 
 // dynamic list of phones in home page
@@ -36,7 +36,7 @@ class _homeState extends State<home> {
               child: Scaffold(
                 appBar: AppBar(
                   flexibleSpace: Container(
-                    decoration: BoxDecoration(
+                    decoration: const BoxDecoration(
                       gradient: LinearGradient(
                         colors: [
                           Color.fromARGB(255, 233, 210, 65),
@@ -51,7 +51,7 @@ class _homeState extends State<home> {
                     cursorColor: Colors.white,
                     initialValue: 'Input text',
                     maxLength: 20,
-                    decoration: InputDecoration(
+                    decoration: const InputDecoration(
                       labelText: 'Search',
                       labelStyle: TextStyle(
                         color: Color(0xFF6200EE),
@@ -126,66 +126,41 @@ class _homeState extends State<home> {
                 Get.to(() => productDetails(product: productDetail),
                     arguments: index);
               },
-              child: Card(
-                child: Row(
-                  children: [
-                    Expanded(
-                        child: Image(
-                      image: NetworkImage(product[index].imgUrl.toString()),
-                      fit: BoxFit.cover,
-                    )),
-                    Expanded(
-                        child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          product[index].phoneName,
-                          style: const TextStyle(
-                              fontWeight: FontWeight.bold, fontSize: 18),
-                        ),
-                        const SizedBox(
-                          height: 10,
-                        ),
-                        Text(
-                          product[index].description,
-                          style:
-                              const TextStyle(fontSize: 12, color: Colors.grey),
-                        ),
-                        const SizedBox(
-                          height: 10,
-                        ),
-                        // this section is about const and add to card button
-                        Container(
-                          width: double.infinity,
-                          padding: const EdgeInsets.only(
-                            top: 20,
-                            bottom: 20,
-                            left: 10,
+              child: Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Card(
+                  child: Row(
+                    children: [
+                      Expanded(
+                          child: Image(
+                        image: NetworkImage(product[index].imgUrl.toString()),
+                        fit: BoxFit.cover,
+                      )),
+                      Expanded(
+                          child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            product[index].phoneName,
+                            style: const TextStyle(
+                                fontWeight: FontWeight.bold, fontSize: 18),
                           ),
-                          decoration: const BoxDecoration(
-                              color: Color.fromARGB(185, 225, 174, 35)),
-                          child: GestureDetector(
-                            onTap: () {
-                              // DatabaseHandler.insertInto(
-                              //     'product', product[index]);
-                              // AlertDialog(
-                              //   actions: [Text("Add successfully")],
-                              // );
-                            },
-                            child: GestureDetector(
-                              onTap: (){},
-                              child: Text(
-                                'Add to card',
-                                style: const TextStyle(
-                                    color: Colors.white,
-                                    fontWeight: FontWeight.bold),
-                              ),
-                            ),
+                          const SizedBox(
+                            height: 10,
                           ),
-                        )
-                      ],
-                    ))
-                  ],
+                          Text(
+                            product[index].description,
+                            style: const TextStyle(
+                                fontSize: 12, color: Colors.grey),
+                          ),
+                          const SizedBox(
+                            height: 10,
+                          ),
+                          // this section is about const and add to card button
+                        ],
+                      ))
+                    ],
+                  ),
                 ),
               ),
             ),

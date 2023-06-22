@@ -1,9 +1,8 @@
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:ecommerce/screens/home/header/static.dart';
 import 'package:flutter/material.dart';
 import 'package:ecommerce/screens/home/model/phoneModel.dart';
-import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
+// ignore: camel_case_types, must_be_immutable
 class productDetails extends StatefulWidget {
   List<phones> product;
   productDetails({required this.product});
@@ -23,6 +22,7 @@ class _productDetailsState extends State<productDetails> {
 
     List<phones> a = widget.product;
 //  Text(product[args].phoneName),
+    // ignore: unused_local_variable
     int activeIndex1 = 0;
     final List<String> urlImages = [
       "${a[args].ImgeUrl1}",

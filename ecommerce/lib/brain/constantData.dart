@@ -16,8 +16,8 @@ class constantData {
         //'https://cdn.shopify.com/s/files/1/0011/0162/7439/products/iPhone14ProMax_DeepPurple_bb227bb9-44d2-48fd-83e6-37176aa70d2e_1200x.png?v=1668771881',
         phoneName: 'Iphone 12 Pro Max',
         description:
-            'iPhone 14 Pro Max. Capture incredible detail with a 48MP Main camera. Experience iPhone in a whole new way with Dynamic Island and Always-On display',
-        cost: 1400),
+            'iPhone 12 Pro Max. Capture incredible detail with a 48MP Main camera. Experience iPhone in a whole new way with Dynamic Island and Always-On display',
+        cost: 1200),
     phones(
         imgUrl:
             'https://www.peru-smart.com/wp-content/uploads/CELR015SPACEGRAY-64GB_0-1.jpg',
@@ -126,8 +126,42 @@ class constantData {
             'https://www.iphones.ru/wp-content/uploads/2020/11/iphone-12-pro-max-review-iphonesru-13.jpg',
         phoneName: 'Iphone 12 Pro Max',
         description:
-            'iPhone 14 Pro Max. Capture incredible detail with a 48MP Main camera. Experience iPhone in a whole new way with Dynamic Island and Always-On display',
-        cost: 1400,
+            'iPhone 12 Pro Max. Capture incredible detail with a 48MP Main camera. Experience iPhone in a whole new way with Dynamic Island and Always-On display',
+        cost: 1200,
+        available: "Available Now 2023",
+        core: "15.03 ios",
+        ram: "8 GB",
+        memorize: "64 GB"),
+    phones(
+        ImgeUrl1:
+            'https://www.macworld.com/wp-content/uploads/2023/01/iphone-11-and-pros-100810657-orig.jpg?quality=50&strip=all',
+        ImgeUrl2:
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvL4i__N4XFCVuehhzT9KrfOnuj5mNAxNAtEqZ4mzqWnRbr1_jLa6-7iNlnEaTdTqy-XE&usqp=CAU',
+        ImgeUrl3:
+            'https://www.apple.com/newsroom/images/product/iphone/standard/Apple_iPhone-11-Pro_Colors_091019_big.jpg.large.jpg',
+        ImgeUrl4:
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIyzB0M0LxDag4JGmqIdWsyaaFRcWlm9YIX55YcaBc3py1vi2MOl7zfTBfk7VEYolT0mI&usqp=CAU',
+        phoneName: 'Iphone 11 Pro Max',
+        description:
+            'iPhone 11 Pro Max. Capture incredible detail with a 48MP Main camera. Experience iPhone in a whole new way with Dynamic Island and Always-On display',
+        cost: 100,
+        available: "Available Now 2023",
+        core: "15.03 ios",
+        ram: "8 GB",
+        memorize: "64 GB"),
+    phones(
+        ImgeUrl1:
+            'https://i.pinimg.com/originals/99/9c/c9/999cc9094133c0c38d1ccd8d18464556.jpg',
+        ImgeUrl2:
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm_68U9tdXS96n4iK1pWB4V1UzfpHO1xgd9BaXWTRjV4sQGJ9TQBb8loBK0fZ1XUbMNBQ&usqp=CAU',
+        ImgeUrl3:
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNNLpVcGy2aSihkJ9uXe1dYyXfiSJEKmCMwykODi2TnHdLHHESgaMHAdvIMsKFNnaUwvw&usqp=CAU',
+        ImgeUrl4:
+            'https://www.mega.pk/items_images/Apple+iphone+XS+Max+Single+SIM+Mobile+4GB+RAM+64GB+Storage+Gold+color++Official+warranty+PTA+approved+Price+in+Pakistan%2C+Specifications%2C+Features_-_18283.webp',
+        phoneName: 'Iphone XS Max',
+        description:
+            'iPhone Xs Max. Capture incredible detail with a 48MP Main camera. Experience iPhone in a whole new way with Dynamic Island and Always-On display',
+        cost: 900,
         available: "Available Now 2023",
         core: "15.03 ios",
         ram: "8 GB",
@@ -140,10 +174,9 @@ class constantData {
         ImgeUrl2:
             'https://www.trustedreviews.com/wp-content/uploads/sites/54/2023/03/Huawei-Mate-X3-family-1024x576.jpg',
         ImgeUrl3:
-            'https://media.istockphoto.com/id/1364620309/photo/iphone-13-pro.jpg?s=612x612&w=0&k=20&c=2h5Q46wh-eRyPwh4KKnJhCKFWqcd2ltgv9tdaULDdbc=',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV3VH8a39PA36hzQHHI2m8w1IRsM7-yP_B9UDukr3EgP9RvmtNFIjzXy-ETN9lsj9LFFg&usqp=CAU',
         ImgeUrl4:
-            'https://media.istockphoto.com/id/1364620309/photo/iphone-13-pro.jpg?s=612x612&w=0&k=20&c=2h5Q46wh-eRyPwh4KKnJhCKFWqcd2ltgv9tdaULDdbc=',
-        //'https://cdn.shopify.com/s/files/1/0011/0162/7439/products/iPhone14ProMax_DeepPurple_bb227bb9-44d2-48fd-83e6-37176aa70d2e_1200x.png?v=1668771881',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcyTI3GhP1iUt3tFAab8CNGaOs4J25B1rgxvTujt9m0dHRb99bKUYVP7nDjiRzdKK594s&usqp=CAU',
         phoneName: 'Huewi  12S',
         description:
             'Huewi  12S. Capture incredible detail with a 48MP Main camera. Experience iPhone in a whole new way with Dynamic Island and Always-On display',
@@ -154,14 +187,47 @@ class constantData {
         memorize: "16 GB"),
     phones(
         ImgeUrl1:
-            'https://media.istockphoto.com/id/1364620309/photo/iphone-13-pro.jpg?s=612x612&w=0&k=20&c=2h5Q46wh-eRyPwh4KKnJhCKFWqcd2ltgv9tdaULDdbc=',
+            'https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/phones/nova-y61/img/kv/kv.jpg',
         ImgeUrl2:
-            'https://media.istockphoto.com/id/1364620309/photo/iphone-13-pro.jpg?s=612x612&w=0&k=20&c=2h5Q46wh-eRyPwh4KKnJhCKFWqcd2ltgv9tdaULDdbc=',
+            'https://www.trustedreviews.com/wp-content/uploads/sites/54/2023/03/Huawei-Mate-X3-family-1024x576.jpg',
         ImgeUrl3:
-            'https://media.istockphoto.com/id/1364620309/photo/iphone-13-pro.jpg?s=612x612&w=0&k=20&c=2h5Q46wh-eRyPwh4KKnJhCKFWqcd2ltgv9tdaULDdbc=',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV3VH8a39PA36hzQHHI2m8w1IRsM7-yP_B9UDukr3EgP9RvmtNFIjzXy-ETN9lsj9LFFg&usqp=CAU',
         ImgeUrl4:
-            'https://media.istockphoto.com/id/1364620309/photo/iphone-13-pro.jpg?s=612x612&w=0&k=20&c=2h5Q46wh-eRyPwh4KKnJhCKFWqcd2ltgv9tdaULDdbc=',
-        //'https://cdn.shopify.com/s/files/1/0011/0162/7439/products/iPhone14ProMax_DeepPurple_bb227bb9-44d2-48fd-83e6-37176aa70d2e_1200x.png?v=1668771881',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcyTI3GhP1iUt3tFAab8CNGaOs4J25B1rgxvTujt9m0dHRb99bKUYVP7nDjiRzdKK594s&usqp=CAU',
+        phoneName: 'Huewi  87s',
+        description:
+            'Huewi  87s. Capture incredible detail with a 48MP Main camera. Experience iPhone in a whole new way with Dynamic Island and Always-On display',
+        cost: 1400,
+        available: "Available Now 2019",
+        core: "504 HU",
+        ram: "8 GB",
+        memorize: "64 GB"),
+    phones(
+        ImgeUrl1:
+            'https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/phones/nova-y61/img/kv/kv.jpg',
+        ImgeUrl2:
+            'https://www.trustedreviews.com/wp-content/uploads/sites/54/2023/03/Huawei-Mate-X3-family-1024x576.jpg',
+        ImgeUrl3:
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV3VH8a39PA36hzQHHI2m8w1IRsM7-yP_B9UDukr3EgP9RvmtNFIjzXy-ETN9lsj9LFFg&usqp=CAU',
+        ImgeUrl4:
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcyTI3GhP1iUt3tFAab8CNGaOs4J25B1rgxvTujt9m0dHRb99bKUYVP7nDjiRzdKK594s&usqp=CAU',
+        phoneName: 'Huewi  12S',
+        description:
+            'Huewi  12S. Capture incredible detail with a 48MP Main camera. Experience iPhone in a whole new way with Dynamic Island and Always-On display',
+        cost: 1900,
+        available: "Available Now 2019",
+        core: "54 HU",
+        ram: "4 GB",
+        memorize: "16 GB"),
+    phones(
+        ImgeUrl1:
+            'https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/phones/nova-y61/img/kv/kv.jpg',
+        ImgeUrl2:
+            'https://www.trustedreviews.com/wp-content/uploads/sites/54/2023/03/Huawei-Mate-X3-family-1024x576.jpg',
+        ImgeUrl3:
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV3VH8a39PA36hzQHHI2m8w1IRsM7-yP_B9UDukr3EgP9RvmtNFIjzXy-ETN9lsj9LFFg&usqp=CAU',
+        ImgeUrl4:
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcyTI3GhP1iUt3tFAab8CNGaOs4J25B1rgxvTujt9m0dHRb99bKUYVP7nDjiRzdKK594s&usqp=CAU',
         phoneName: 'Huewi  87s',
         description:
             'Huewi  87s. Capture incredible detail with a 48MP Main camera. Experience iPhone in a whole new way with Dynamic Island and Always-On display',
@@ -174,17 +240,15 @@ class constantData {
   List<phones> SumsungDetails = [
     phones(
         ImgeUrl1:
-            'https://media.istockphoto.com/id/1364620309/photo/iphone-13-pro.jpg?s=612x612&w=0&k=20&c=2h5Q46wh-eRyPwh4KKnJhCKFWqcd2ltgv9tdaULDdbc=',
+            'https://images.fonearena.com/blog/wp-content/uploads/2023/03/Samsung-Galaxy-A54-5G_fonearena-11.jpg',
         ImgeUrl2:
-            'https://media.istockphoto.com/id/1364620309/photo/iphone-13-pro.jpg?s=612x612&w=0&k=20&c=2h5Q46wh-eRyPwh4KKnJhCKFWqcd2ltgv9tdaULDdbc=',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShgRCndE9eIl1BWj1FAoRyger3KirphyhcuwwK_YIqQmQ7jGjns5q9i5nV-695JcPwvbc&usqp=CAU',
         ImgeUrl3:
-            'https://media.istockphoto.com/id/1364620309/photo/iphone-13-pro.jpg?s=612x612&w=0&k=20&c=2h5Q46wh-eRyPwh4KKnJhCKFWqcd2ltgv9tdaULDdbc=',
-        ImgeUrl4:
-            'https://media.istockphoto.com/id/1364620309/photo/iphone-13-pro.jpg?s=612x612&w=0&k=20&c=2h5Q46wh-eRyPwh4KKnJhCKFWqcd2ltgv9tdaULDdbc=',
-        //'https://cdn.shopify.com/s/files/1/0011/0162/7439/products/iPhone14ProMax_DeepPurple_bb227bb9-44d2-48fd-83e6-37176aa70d2e_1200x.png?v=1668771881',
-        phoneName: 'Sumsung A10s Pro Max',
+            'https://images.fonearena.com/blog/wp-content/uploads/2023/03/Samsung-Galaxy-A54-5G_fonearena-11.jpg',
+        ImgeUrl4: 'https://i.ytimg.com/vi/KeqmQXrRtBo/maxresdefault.jpg',
+        phoneName: 'Sumsung A54',
         description:
-            'Sumsung A10s. Capture incredible detail with a 48MP Main camera. Experience iPhone in a whole new way with Dynamic Island and Always-On display',
+            'Sumsung A54. Capture incredible detail with a 48MP Main camera. Experience A54 in a whole new way with Dynamic Island and Always-On display',
         cost: 4576,
         available: "Available Now 2020",
         core: "765 Android",
@@ -199,7 +263,6 @@ class constantData {
             'https://media.istockphoto.com/id/1364620309/photo/iphone-13-pro.jpg?s=612x612&w=0&k=20&c=2h5Q46wh-eRyPwh4KKnJhCKFWqcd2ltgv9tdaULDdbc=',
         ImgeUrl4:
             'https://media.istockphoto.com/id/1364620309/photo/iphone-13-pro.jpg?s=612x612&w=0&k=20&c=2h5Q46wh-eRyPwh4KKnJhCKFWqcd2ltgv9tdaULDdbc=',
-        //'https://cdn.shopify.com/s/files/1/0011/0162/7439/products/iPhone14ProMax_DeepPurple_bb227bb9-44d2-48fd-83e6-37176aa70d2e_1200x.png?v=1668771881',
         phoneName: 'Sumsung A51',
         description:
             'Sumsung A51. Capture incredible detail with a 48MP Main camera. Experience iPhone in a whole new way with Dynamic Island and Always-On display',
@@ -208,5 +271,38 @@ class constantData {
         core: "504 Android",
         memorize: "32 GB",
         ram: "4 GB"),
+    phones(
+        ImgeUrl1:
+            'https://images.fonearena.com/blog/wp-content/uploads/2023/03/Samsung-Galaxy-A54-5G_fonearena-11.jpg',
+        ImgeUrl2:
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShgRCndE9eIl1BWj1FAoRyger3KirphyhcuwwK_YIqQmQ7jGjns5q9i5nV-695JcPwvbc&usqp=CAU',
+        ImgeUrl3:
+            'https://images.fonearena.com/blog/wp-content/uploads/2023/03/Samsung-Galaxy-A54-5G_fonearena-11.jpg',
+        ImgeUrl4: 'https://i.ytimg.com/vi/KeqmQXrRtBo/maxresdefault.jpg',
+        phoneName: 'Sumsung A14',
+        description:
+            'Sumsung A14. Capture incredible detail with a 48MP Main camera. Experience A54 in a whole new way with Dynamic Island and Always-On display',
+        cost: 400,
+        available: "Available Now 2020",
+        core: "54 Android",
+        ram: "4 GB",
+        memorize: "32 GB"),
+    phones(
+        ImgeUrl1:
+            'https://media.istockphoto.com/id/1364620309/photo/iphone-13-pro.jpg?s=612x612&w=0&k=20&c=2h5Q46wh-eRyPwh4KKnJhCKFWqcd2ltgv9tdaULDdbc=',
+        ImgeUrl2:
+            'https://media.istockphoto.com/id/1364620309/photo/iphone-13-pro.jpg?s=612x612&w=0&k=20&c=2h5Q46wh-eRyPwh4KKnJhCKFWqcd2ltgv9tdaULDdbc=',
+        ImgeUrl3:
+            'https://media.istockphoto.com/id/1364620309/photo/iphone-13-pro.jpg?s=612x612&w=0&k=20&c=2h5Q46wh-eRyPwh4KKnJhCKFWqcd2ltgv9tdaULDdbc=',
+        ImgeUrl4:
+            'https://media.istockphoto.com/id/1364620309/photo/iphone-13-pro.jpg?s=612x612&w=0&k=20&c=2h5Q46wh-eRyPwh4KKnJhCKFWqcd2ltgv9tdaULDdbc=',
+        phoneName: 'Sumsung S20',
+        description:
+            'Sumsung S20. Capture incredible detail with a 48MP Main camera. Experience iPhone in a whole new way with Dynamic Island and Always-On display',
+        cost: 450,
+        available: "Available Now 2022",
+        core: "504 Android",
+        memorize: "16 GB",
+        ram: "8 GB"),
   ];
 }

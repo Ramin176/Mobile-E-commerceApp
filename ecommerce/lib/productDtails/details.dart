@@ -55,9 +55,10 @@ class _productDetailsState extends State<productDetails> {
                   },
                   options: CarouselOptions(
                     height: 300,
+                    autoPlay: true,
                     enlargeCenterPage: true,
                     enlargeStrategy: CenterPageEnlargeStrategy.height,
-                    autoPlayInterval: const Duration(seconds: 1),
+                    autoPlayInterval: const Duration(seconds: 2),
                     viewportFraction: 1,
                     onPageChanged: (index, reason) {
                       setState(() {
@@ -189,7 +190,7 @@ class _productDetailsState extends State<productDetails> {
                   Get.snackbar(
                     "Add to Card",
                     "Transfer Successfully",
-                    animationDuration: Duration(microseconds: 2),
+                    animationDuration: const Duration(microseconds: 2),
                   );
                 },
                 child: Container(

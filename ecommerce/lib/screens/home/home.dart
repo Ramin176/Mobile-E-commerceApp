@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:ecommerce/screens/home/details.dart';
+import 'package:ecommerce/productDtails/details.dart';
 import 'package:ecommerce/screens/home/model/phoneModel.dart';
 // import 'package:sqflite/sqflite.dart';
 // import '../../sqflite.dart';
-import 'constantData.dart';
+import '../../brain/constantData.dart';
 import 'header/head.dart';
 import 'package:get/get.dart';
 

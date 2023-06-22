@@ -18,7 +18,20 @@ class constantData {
         description:
             'iPhone 14 Pro Max. Capture incredible detail with a 48MP Main camera. Experience iPhone in a whole new way with Dynamic Island and Always-On display',
         cost: 1400),
+    phones(
+        imgUrl:
+            'https://www.peru-smart.com/wp-content/uploads/CELR015SPACEGRAY-64GB_0-1.jpg',
+        phoneName: 'Iphone 11 Pro Max',
+        description: 'iPhone 11 Pro Max 64GB 4GB Gris | REACONDICIONADO',
+        cost: 1000),
+    phones(
+        imgUrl:
+            'https://5.imimg.com/data5/SELLER/Default/2021/1/WS/DY/LF/14753644/silver-apple-iphone-xs-max-500x500.jpg',
+        phoneName: 'Iphone xs Max',
+        description: 'Apple iPhone XS MAX 256GB Space Grey Demo ',
+        cost: 900),
   ];
+
   List<phones> SUMSUNG = [
     phones(
         imgUrl:
@@ -34,23 +47,23 @@ class constantData {
         phoneName: 'S10',
         description: 'Samsung Galaxy S10 pictures, official photos',
         cost: 600),
+    phones(
+        imgUrl:
+            'https://akm-img-a-in.tosshub.com/indiatoday/images/story/202211/samsung_galaxy_m53_5g_sale_price_india-three_four.jpg?VersionId=b9XpyZY_Sh_WOjhPAkQMfwqXSK6BSQmd',
+        phoneName: 'A14',
+        description:
+            'Samsung Galaxy A14, Samsung Galaxy M54 5G, and more leak online - India Today',
+        cost: 800),
+    phones(
+        imgUrl:
+            'https://phoneaqua.com/products/thumb/samsung-galaxy-m14-5g-sm-m146.jpg',
+        phoneName: 'S20',
+        description:
+            'Samsung Mobile Price In Afghanistan - Samsung Phones Afghanistan',
+        cost: 400),
   ];
+
   List<phones> HUAEI = [
-    phones(
-        imgUrl:
-            'https://www.tradeinn.com/f/13771/137713914/huawei-p30-lite-6gb-256gb-6.15-dual-sim-smartphone.jpg',
-        // 'https://cellucity.co.za/wp-content/uploads/2022/10/Huawei-nova-Y90-Green.jpg',
-        phoneName: 'Y90',
-        description:
-            '6.7-inch Edgeless FullView FHD+ Display with a 90Hz refresh rate * Processor: Quad-Core Qualcomm Snapdragon 680 Processor with 6GB RAM * .',
-        cost: 900),
-    phones(
-        imgUrl:
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRObGfg0Et9TNLYrM1-TpJgw-s5n-h76JiMzbJw77nwUXJZz58f43cOwQma2ctVl1Mew3E&usqp=CAU',
-        phoneName: 'Mate 40 Pro',
-        description:
-            'The refurbed™ Huawei Mate 40 Pro 5G is a flagship phone that is a particularly good find for those looking for a large screen and an excellent ...',
-        cost: 700),
     phones(
         imgUrl:
             'https://www.tradeinn.com/f/13771/137713914/huawei-p30-lite-6gb-256gb-6.15-dual-sim-smartphone.jpg',
@@ -86,9 +99,9 @@ class constantData {
   List<phones> iphoneDetails = [
     phones(
         ImgeUrl1:
-            'https://images.unsplash.com/photo-1606041011872-596597976b25?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXBwbGUlMjBpcGhvbmV8ZW58MHx8MHx8fDA%3D&w=1000&q=80',
+            'https://specials-images.forbesimg.com/imageserve/6321aca5df0a9fa9eee9950b/IMG-2758/960x0.jpg?cropX1=63&cropX2=1519&cropY1=104&cropY2=1074',
         ImgeUrl2:
-            'https://bgr.com/wp-content/uploads/2022/09/iphone-14-pro-max-space-black.jpg?quality=82&strip=all&resize=1400,1050',
+            'https://s.yimg.com/uu/api/res/1.2/r59QHlsa_l1FsxxsVl7.6w--~B/aD0xMjYyO3c9MjAwMDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2022-09/7e16cd50-33ee-11ed-bd7f-45b4dd0372d0.cf.jpg',
         ImgeUrl3:
             'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr_gV2pytWYUqGR9otL7omG4VcVY7FHZtQ-p0pMtmHhKO8dUeB07OvnsjXcO885qGrf3Q&usqp=CAU',
         ImgeUrl4:
@@ -100,33 +113,32 @@ class constantData {
         cost: 1400,
         available: "Available Now 2023",
         ram: "8 GB",
-        core: "1602 ios",
+        core: "16.02 ios",
         memorize: "32 GB"),
     phones(
         ImgeUrl1:
-            'https://media.istockphoto.com/id/1364620309/photo/iphone-13-pro.jpg?s=612x612&w=0&k=20&c=2h5Q46wh-eRyPwh4KKnJhCKFWqcd2ltgv9tdaULDdbc=',
+            'https://www.cnet.com/a/img/resize/3ff4001d5ee316224817797d2200e0b5f44f48cb/hub/2020/11/09/d0f15941-5210-4a0b-ab66-78a2e58dd245/16-iphone-12-pro-max.jpg?auto=webp&width=1200',
         ImgeUrl2:
-            'https://media.istockphoto.com/id/1364620309/photo/iphone-13-pro.jpg?s=612x612&w=0&k=20&c=2h5Q46wh-eRyPwh4KKnJhCKFWqcd2ltgv9tdaULDdbc=',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4s3MGiyGcutv7Dhap7HPf6eHt9FEtlbyKe_obwDIpmN5SKy6Vcj4d3fZJVygvmMgNtoE&usqp=CAU',
         ImgeUrl3:
-            'https://media.istockphoto.com/id/1364620309/photo/iphone-13-pro.jpg?s=612x612&w=0&k=20&c=2h5Q46wh-eRyPwh4KKnJhCKFWqcd2ltgv9tdaULDdbc=',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy3FI7uff9jFy7nkCw0wMI-wd8dzVw-1hFFZSgLvzUvwkJCX3vfxe89WIO9rLidwLLN1c&usqp=CAU',
         ImgeUrl4:
-            'https://media.istockphoto.com/id/1364620309/photo/iphone-13-pro.jpg?s=612x612&w=0&k=20&c=2h5Q46wh-eRyPwh4KKnJhCKFWqcd2ltgv9tdaULDdbc=',
-        //'https://cdn.shopify.com/s/files/1/0011/0162/7439/products/iPhone14ProMax_DeepPurple_bb227bb9-44d2-48fd-83e6-37176aa70d2e_1200x.png?v=1668771881',
+            'https://www.iphones.ru/wp-content/uploads/2020/11/iphone-12-pro-max-review-iphonesru-13.jpg',
         phoneName: 'Iphone 12 Pro Max',
         description:
             'iPhone 14 Pro Max. Capture incredible detail with a 48MP Main camera. Experience iPhone in a whole new way with Dynamic Island and Always-On display',
         cost: 1400,
         available: "Available Now 2023",
-        core: "1503 ios",
+        core: "15.03 ios",
         ram: "8 GB",
         memorize: "64 GB"),
   ];
   List<phones> HUEWIDetails = [
     phones(
         ImgeUrl1:
-            'https://media.istockphoto.com/id/1364620309/photo/iphone-13-pro.jpg?s=612x612&w=0&k=20&c=2h5Q46wh-eRyPwh4KKnJhCKFWqcd2ltgv9tdaULDdbc=',
+            'https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/phones/nova-y61/img/kv/kv.jpg',
         ImgeUrl2:
-            'https://media.istockphoto.com/id/1364620309/photo/iphone-13-pro.jpg?s=612x612&w=0&k=20&c=2h5Q46wh-eRyPwh4KKnJhCKFWqcd2ltgv9tdaULDdbc=',
+            'https://www.trustedreviews.com/wp-content/uploads/sites/54/2023/03/Huawei-Mate-X3-family-1024x576.jpg',
         ImgeUrl3:
             'https://media.istockphoto.com/id/1364620309/photo/iphone-13-pro.jpg?s=612x612&w=0&k=20&c=2h5Q46wh-eRyPwh4KKnJhCKFWqcd2ltgv9tdaULDdbc=',
         ImgeUrl4:
